@@ -1,6 +1,6 @@
-
 import React from "react";
-import './../styles/App.css';
+import Home from "./pages/Home";  // ✅ Add this import
+import "./../styles/App.css";
 
 const App = () => {
   return (
@@ -8,6 +8,6 @@ const App = () => {
       <Home />
     </div>
   );
-}
+};
 
-export default App
+export default App;
