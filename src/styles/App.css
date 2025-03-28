@@ -1,1 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  width: 300px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather {
+  margin-top: 20px;
+}
 
